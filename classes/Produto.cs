@@ -17,7 +17,7 @@ namespace EX2.classes
             Console.WriteLine($"Código inserido foi {Codigo}");
         }
         public Produto(int valor,string nome,string descricao,int estoque){
-            Codigo = valor
+            Codigo = valor;
             Nome = nome;
             Descricao = descricao;
             Estoque = estoque;
